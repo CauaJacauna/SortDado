@@ -6,7 +6,7 @@ $banco = mysqli_query($link,"SELECT * from perguntas;") or die("Erro na query: "
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>PAGE 0</title>
 </head>
 <body>
 	<?php
