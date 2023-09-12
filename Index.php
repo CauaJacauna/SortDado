@@ -17,6 +17,7 @@ $itens = array("a", "b","c","d","e","f");
 			<input type="submit" name="rodar" value="Jogar Dado">
 		</form>
 		<?php
+		echo("Dado");
 		/*while ($row = mysqli_fetch_assoc($query)) {*/
 			if (@$_POST["rodar"]) {
 				$aux = (array_rand($verbo)+1);
