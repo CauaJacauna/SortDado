@@ -62,7 +62,7 @@ $banco = mysqli_query($link,"SELECT * from perguntas;") or die("Erro na query: "
 				</script>";
 			}
 		}else{
-			/**/
+			/*Resposta Errada*/
 			echo "<script type='text/javascript'>
 			alert('Resposta incorreta!');
 			window.location.href='index.php';
