@@ -10,6 +10,7 @@ $banco = mysqli_query($link,"SELECT * from perguntas;") or die("Erro na query: "
 </head>
 <body>
 	<?php
+	echo('Item Correto!');
 	/* <script type="text/javascript">alert("Item correto! (<?php echo($x." => $key"); ?>)"); </script>*/
 	if (@$_POST["resposta"]) {
 		$x = @$_POST["itensM"];
