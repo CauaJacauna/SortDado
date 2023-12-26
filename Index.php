@@ -8,6 +8,7 @@ $itens = array("a", "b","c","d","e","f");
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset='UTF-8'>
 	<title>Back-End</title>
 	<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 </head>
